@@ -1,6 +1,6 @@
 package me.cs.easypost.models
 
-class IndexPageModel {
+class RootModel {
   val Title = "Easy Post"
 
   val WelcomeMessageId = "welcome_message"

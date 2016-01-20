@@ -1,7 +1,7 @@
 package me.cs.easypost
 
 import akka.util.Timeout
-import me.cs.easypost.models.IndexPageModel
+import me.cs.easypost.models.RootModel
 import net.ruippeixotog.scalascraper.browser.Browser
 import org.jsoup.nodes.Document
 import org.junit.runner._
@@ -15,7 +15,7 @@ import scala.concurrent.duration._
 @RunWith(classOf[JUnitRunner])
 class ApplicationSpec extends Specification with DefaultAwaitTimeout {
   val browser = new Browser
-  val indexPageModel = new IndexPageModel
+  val indexPageModel = new RootModel
 
   override implicit def defaultAwaitTimeout: Timeout = 5.seconds
 
