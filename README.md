@@ -1,2 +1,2 @@
 # PostMeEasy
-A web application written in Scala and PlayFramework to post messages on multiple socials (Twitter, Facebook, etc.)
+Post messages on multiple socials (Twitter, Facebook, etc.). A web application written in Scala and PlayFramework.
