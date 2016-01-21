@@ -8,4 +8,7 @@ class RootModel {
 
   val WelcomeMessageId = "welcome_message"
   val WelcomeMessage = "Welcome to Easy Post"
+
+  val TwitterTextMaxLength = 140
+  val SubmitPostLabel = "Post"
 }

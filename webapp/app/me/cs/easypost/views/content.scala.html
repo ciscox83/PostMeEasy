@@ -1,0 +1,12 @@
+@import me.cs.easypost.models.RootModel
+
+@(model: RootModel)
+
+<div id="content">
+
+   <form action="">
+       <input type="text" size="@model.TwitterTextMaxLength" maxlength="@model.TwitterTextMaxLength">
+       <input type="submit" value="@model.SubmitPostLabel">
+   </form>
+
+</div>
