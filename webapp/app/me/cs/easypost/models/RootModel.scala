@@ -4,6 +4,7 @@ import com.google.inject.Singleton
 
 @Singleton
 class RootModel {
+  val TitleId = "title"
   val Title = "Easy Post"
 
   val WelcomeMessageId = "welcome_message"
