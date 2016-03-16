@@ -1,6 +1,6 @@
 package functional
 
-import me.cs.easypost.Common
+import me.cs.easypost.Constants
 import me.cs.easypost.models.RootModel
 import org.junit.runner.RunWith
 import org.specs2.runner.JUnitRunner
@@ -14,7 +14,7 @@ class NotFoundPageTest extends PlaySpecification {
 
     "Display Action Not Found on a bad request" in new WithBrowser {
       browser.goTo("/boum")
-      browser.$(rootModel.TitleId).getTexts().get(0) must equalTo(Common.text.ActionNotFound)
+      browser.$(rootModel.TitleId).getTexts().get(0) must equalTo(Constants.ActionNotFound)
     }
   }
 }
